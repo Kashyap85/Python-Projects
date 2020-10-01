@@ -4,7 +4,7 @@ r = sr.Recognizer()
 
 with sr.Microphone() as source:
     print('Speak')
-    print("Listening...........")
+    print("Listening Your Voice...........")
     audio = r.listen(source)
     
     try:
